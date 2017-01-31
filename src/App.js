@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Loader from './components/SlashItem/Loader'
+import Nav from './components/SlashItem/Nav'
+import Motto from './components/SlashItem/Motto'
+import Intro from './components/SlashItem/Intro'
+import Tech from './components/SlashItem/Tech'
+import Parallax from './components/SlashItem/Parallax'
+import Team from './components/SlashItem/Team'
+import Footer from './components/SlashItem/Footer'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div  id="top" class="scrollspy">
+        <Loader />
+        <Nav />
+        <Motto />
+        <Intro />
+        <Tech />
+        <Parallax />
+        <Team />
+        <Footer />
       </div>
     );
   }

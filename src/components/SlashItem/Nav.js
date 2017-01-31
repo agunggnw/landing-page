@@ -4,7 +4,7 @@ class Nav extends Component {
   render() {
     return (
          <div className="navbar-fixed">
-            <nav idName="nav_f" className="default_color" role="navigation">
+            <nav id="nav_f" className="default_color" role="navigation">
                 <div className="container">
                     <div className="nav-wrapper">
                     <a href="#" id="logo-container" className="brand-logo">MD Template</a>

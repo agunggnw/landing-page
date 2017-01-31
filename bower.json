@@ -1,0 +1,20 @@
+{
+  "name": "CyberClick Landing Page",
+  "description": "Landing page for www.cyberclick.id",
+  "main": "index.html",
+  "authors": [
+    "mail@cyberclick.id"
+  ],
+  "license": "Personal",
+  "keywords": [
+    "cyberclick"
+  ],
+  "homepage": "www.cyberclick.id",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

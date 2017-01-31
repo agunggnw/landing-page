@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 
 class Motto extends Component {
+  constructor(props) {
+    super(props);
+    this.state  = {
+      mottos: ['Coding','Developing']
+    }
+  }
+
   render() {
     return (
         <div className="section no-pad-bot" id="index-banner">
@@ -9,8 +16,7 @@ class Motto extends Component {
                     <span>We Love</span> <br/>
                     <span className="cd-words-wrapper waiting">
                         <b className="is-visible">Simplicity</b>
-                        <b>Coding</b>
-                        <b>Developing</b>
+                        {this.state.mottos.map((word,i) => <b key={i}>{word}</b>)}
                     </span>
                 </h1>
             </div>

@@ -11,7 +11,7 @@ import Footer from './components/SlashItem/Footer'
 class App extends Component {
   render() {
     return (
-      <div  id="top" class="scrollspy">
+      <div  id="top" className="scrollspy">
         <Loader />
         <Nav />
         <Motto />

@@ -13,8 +13,8 @@ class Motto extends Component {
         <div className="section no-pad-bot" id="index-banner">
             <div className="container">
                 <h1 className="text_h center header cd-headline letters type">
-                    <span>We Love</span> <br/>
-                    <span className="cd-words-wrapper waiting">
+                    <span className="motto">We Love</span> <br/>
+                    <span className="cd-words-wrapper waiting motto-lighter">
                         <b className="is-visible">Simplicity</b>
                         {this.state.mottos.map((word,i) => <b key={i}>{word}</b>)}
                     </span>

@@ -8,7 +8,6 @@ var ver = require('gulp-rev');
 var watch = require('gulp-watch');
 
 gulp.task('dev', function(cb) {
-    return es.concat(
         // gulp.src('./prebuild/assets/css/*.css')
         //     .pipe(concat('app.css'))
         //     .pipe(rename('pre.min.css'))
@@ -22,8 +21,7 @@ gulp.task('dev', function(cb) {
         //     .pipe(gulp.dest('public/js')),
         watch('./public/css/pre.min.css')
             .pipe(rename('app.min.css'))
-            .pipe(gulp.dest('./public/css'))
-    );
+            .pipe(gulp.dest('./public/css'));
 });
 
 gulp.task('build', function(cb) {

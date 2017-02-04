@@ -25,3 +25,13 @@
  #intro.text_h2 {
   transition: cubic-bezier(.93,.14,1,1);
  }
+ .contact-form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.inverse_color{
+  background-color: #fff !important;
+}
+.text_inverse {
+  color: #6ec5a2;
+}
